@@ -105,6 +105,11 @@ public class Time_and_Space_Complexity {
 				}
 			}
 		}
+		for (i = 1; i <= n; i++) {
+			for (int j = 1; j <= n; j += i) {
+				System.out.println("hey");
+			}
+		}
 	}
 
 }
