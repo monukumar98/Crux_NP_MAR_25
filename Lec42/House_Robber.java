@@ -18,6 +18,9 @@ public class House_Robber {
 	}
 
 	public static int RobberBU(int[] arr) {
+		if (arr.length == 1) {
+			return arr[0];
+		}
 		int[] dp = new int[arr.length];
 		dp[0] = arr[0];
 		dp[1] = Math.max(arr[0], arr[1]);
