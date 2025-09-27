@@ -24,3 +24,4 @@ public class Knapsack_Zero_One {
 		return Math.max(inc, exc);
 	}
 }
+
